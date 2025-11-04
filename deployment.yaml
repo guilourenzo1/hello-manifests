@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: guilherme420/hello-app:latest  # 🟡 Substitua 'seu-dockerhub-usuario' pelo seu usuário do Docker Hub
+          image: guilherme420/hello-app:latest  
           ports:
             - containerPort: 8000
           readinessProbe:
