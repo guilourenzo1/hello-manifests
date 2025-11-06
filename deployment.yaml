@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: guilherme420/hello-app:1b4ea550b87d1a9b28042189c81d43589fbe04a6
+          image: guilherme420/hello-app:bdebe221cffa5d2ccb7caac737cc0f30ebaff0ce
           ports:
             - containerPort: 8000
           readinessProbe:
